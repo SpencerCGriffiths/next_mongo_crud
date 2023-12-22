@@ -37,5 +37,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
+
+
+Important info: 
+
 sclarkegriffiths
 BsXwlaTVMJcZAAER
+
+
+By default all components are server side. if you want them to be client side we need to make the below addition in each fle: 
+<!-- "use client"; 
+
+export default function AddTopic() { 
+    return <form className="flex flex-col gap-3"> 
+    ...... -->
